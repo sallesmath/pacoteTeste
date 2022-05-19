@@ -1,10 +1,26 @@
-
-# pacote_teste
+# pacoteTeste
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-The goal of pacote_teste is to test git and github for classes
+The goal of testPackage is just to teste some functions
 
-Now a new function that sums 1 to values is the new feature
+## Installation
 
+You can install the development version of testPackage like so:
+
+``` r
+# HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+devtools::install_github("sallesmath/pacoteTeste")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+``` r
+library(testPackage)
+## basic example code
+add1(10)
+```
