@@ -4,7 +4,7 @@
 
 <!-- badges: end -->
 
-The goal of testPackage is just to teste some functions
+The goal of testPackage is just to test some functions
 
 ## Installation
 
