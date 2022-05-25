@@ -4,12 +4,13 @@
 \alias{spp_rich}
 \title{Calcula riqueza}
 \usage{
-spp_rich(x, ...)
+spp_rich(x, na.rm = FALSE)
 }
 \arguments{
 \item{x}{A numeric vector of species abundances/presences in the community}
 
-\item{...}{arguments to be passed to internal functions}
+\item{na.rm}{logical.  Should missing values (including \code{NaN}) be
+    removed?}
 }
 \value{
 numeric
